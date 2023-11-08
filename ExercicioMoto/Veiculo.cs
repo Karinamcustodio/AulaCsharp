@@ -43,7 +43,7 @@ namespace ExercicioMoto
 
         public string toString()
         {
-            return $"{base.toStringVeiculo()}, Cilindradas: {Cilindradas}cc";
+            return $"{base.toString()}, Cilindradas: {Cilindradas}cc";
         }
     }
 
